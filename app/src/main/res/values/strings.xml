@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">3okosGuide</string>
+    <string name="welcome">WELCOME</string>
+    <string name="let_s_start">Let\'s Start</string>
+    <string name="installing">INSTALLING</string>
+    <string name="_0">0%</string>
+
+
+
+    <string name="get_started">Get Started</string>
+
+    <string name="dialog_title">Rate App</string>
+    <string name="dialog_str">Rate this app if you like it</string>
+    <string name="dialog_btn">Rate it</string>
+    <string name="ok">OK</string>
+    <string name="game_loading">GAME LOADING</string>
+
+    <string name="share_txt">Hey check out my app at: https://play.google.com/store/apps/details?id=</string>
+    <string name="more_link">https://play.google.com/store/apps/dev?id=7809285959465313029</string>
+    <string name="next">Next</string>
+
+</resources>

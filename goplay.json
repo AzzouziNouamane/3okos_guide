@@ -1,0 +1,161 @@
+{
+  "Data": {
+    "GeneralData": {
+      
+        
+        "AdMobId": "pub-3940256099942544",
+
+        "BannerAdmob": [
+			"ca-app-pub-3940256099942544/6300978111", "ca-app-pub-3940256099942544/6300978111"
+		],
+		
+		
+        "InterstitialAdmob": ["ca-app-pub-3940256099942544/1033173712"],
+        "NativeAdmob": ["ca-app-pub-3940256099942544/2247696110"],
+
+        "BannerFacebook": "IMG_16_9_APP_INSTALL#173186393601951_299214384332484",
+        "InterstitialFacebook": "IMG_16_9_APP_INSTALL#173186393601951_288058788781377",
+        "NativeFacebook": "IMG_16_9_APP_INSTALL#173186393601951_356298065290782",
+		
+        "ImageBanner": false,
+        "ImageBannerImg" : "https://media3.giphy.com/media/igVvRDJ4EbhstQyEKh/giphy.gif",
+        "ImageBannerURL" : "https://www.google.com",
+		
+		"shareText" : "Hey check out my app at: https://play.google.com/store/apps/details?id=",
+		"ratePackageName": "com.example.abc",
+		"moreLink": "https://play.google.com/store/apps/dev?id=5258410538530331508"
+      
+    },
+
+    "Activity1": 
+    {
+		"NetworkAds": "facebook",
+		"backgroundColor": "#91c73e",
+		"title": "3okosKhan",
+		"titleColor": "#000000",
+		"image": "https://ibb.co/t2Gd26m",
+		"text": "Welcome",
+		"textColor": "#000000",
+		"buttonText": "Start",
+		"buttonBackgroundColor": "#000000",
+		"buttonTextColor": "#ffffff",
+		"buttonRadiusTopLeft": 10,
+		"buttonRadiusTopRight": 10,
+		"buttonRadiusBottomLeft": 10,
+		"buttonRadiusBottomRight": 10,
+		"buttonStroke": ""
+    },
+	
+	"Activity2": 
+    {
+		"NetworkAds": "admob",
+		"backgroundColor": "#91c73e",
+		"title": "Dark Meadow: The Pact",
+		"titleColor": "",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"text": "INSTALLING",
+		"textColor": "",
+		"timer": 7000,
+		"percentageColor": ""
+	},
+	
+	"Activity3": 
+    {
+		"NetworkAds": "facebook",
+		"backgroundColor": "#91c73e",
+		"title": "Dark Meadow: The Pact",
+		"titleColor": "",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"text1": "test",
+		"text1Color": "",
+		"text2": "test2",
+		"text2Color": "",
+		"startButtonBackground": "",
+		"shareButtonBackground": "",
+		"rateButtonBackground": "",
+		"moreButtonBackground": ""
+	},
+	"Activity4": [
+      {
+		"NetworkAds": "admob",
+		"showInterstitial": true,
+		"backgroundColor": "#91c73e",
+		"title": "wewe1",
+		"titleColor": "#000000",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"nextText": "next",
+		"nextColor": "#ffffff",
+		"startText": "cvcvcvcvcvcv",
+		"startColor": "#000000"
+	  },
+	  {
+		"NetworkAds": "admob",
+		"backgroundColor": "#91c73e",
+		"showInterstitial": true,
+		"title": "wewew2",
+		"titleColor": "#000000",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"nextText": "next",
+		"nextColor": "#ffffff",
+		"startText": "sdsdsdsdsds",
+		"startColor": "#000000"
+	  },
+	  {
+		"NetworkAds": "admob",
+		"backgroundColor": "#91c73e",
+		"showInterstitial": true,
+		"title": "wewe3",
+		"titleColor": "#000000",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"nextText": "next",
+		"nextColor": "#ffffff",
+		"startText": "wewewewewewe",
+		"startColor": "#000000"
+	  }
+	],
+  
+	"Activity5": 
+    {
+		"NetworkAds": "facebook",
+		"backgroundColor": "#91c73e",
+		"title": "Dark Meadow: The Pact",
+		"titleColor": "",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"buttonsMainBackground": "",
+		"button1Img": "",
+		"button2Img": "",
+		"button3Img": "",
+		"showRate": true,
+		"rateText": "ewewewew"
+	},
+	"Activity6": 
+    {
+		"NetworkAds": "facebook",
+		"backgroundColor": "#91c73e",
+		"title": "Dark Meadow: The Pact",
+		"titleColor": "",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"text": "",
+		"textColor": "",
+		"timer": 7000,
+		"percentageColor": ""
+	},
+	"Activity7": 
+    {
+		"NetworkAds": "admob",
+		"backgroundColor": "#91c73e",
+		"title": "Dark Meadow: The Pact",
+		"titleColor": "",
+		"image": "https://usercontent2.hubstatic.com/6961601.jpg",
+		"boxColor": "#777575",
+		"boxBorderColor": "#000000",
+		"boxText": "#ffffff",
+		"boxTextColor": "",
+		"boxButtonBackground": "",
+		"boxButtonText": "",
+		"boxButtonTextColor": ""
+	}
+  }
+	
+  
+}

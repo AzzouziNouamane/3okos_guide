@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTV"
+        android:layout_margin="15dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/img_border"
+        android:src="@drawable/main_img" />
+
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/game_bg"
+        android:layout_below="@+id/main_logo"
+        android:layout_above="@+id/adsLayout"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.7" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3"
+                android:layout_weight="0.8" >
+
+                <ImageView
+                    android:id="@+id/newGameBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/game_btn1" />
+
+                <ImageView
+                    android:id="@+id/optionBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/game_btn2" />
+
+                <ImageView
+                    android:id="@+id/MultiplayerBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/game_btn3" />
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/adsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+include ':nativetemplates'
+include ':library'
+include ':app'
+rootProject.name = "3okosGuide"
